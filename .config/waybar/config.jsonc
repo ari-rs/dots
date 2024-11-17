@@ -1,0 +1,17 @@
+[
+	{
+		"include": "~/.config/waybar/bar-1.jsonc",
+		"output": "DP-1",
+		"position": "top",
+		"layer": "top",
+		"margin": 4
+	},
+
+	{
+		"include": "~/.config/waybar/bar-2.jsonc",
+		"output": "HDMI-A-1",
+		"position": "top",
+		"layer": "top",
+		"margin": 4
+	}
+]	

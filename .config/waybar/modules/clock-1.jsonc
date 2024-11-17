@@ -1,0 +1,6 @@
+{
+	"clock#cl1": {
+		"format": "{:%I:%M:%S %p}  ",
+		"format-alt": "{:%A, %B %d, %Y}  "
+	}
+}

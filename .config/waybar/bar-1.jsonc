@@ -1,0 +1,17 @@
+{
+	"include": [
+		"~/.config/waybar/modules/custom-logo.jsonc",
+		"~/.config/waybar/modules/hyprland-workspaces.jsonc",
+		"~/.config/waybar/modules/clock-1.jsonc",
+		"~/.config/waybar/modules/custom-notifications.jsonc"
+	],
+	"modules-left": [
+		"custom/logo",
+		"hyprland/workspaces"
+	],
+	"modules-right": [
+		"custom/notifications",
+		"clock#cl1"
+	]
+
+}

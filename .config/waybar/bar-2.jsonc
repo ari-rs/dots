@@ -1,0 +1,16 @@
+{
+	"include": [
+		"~/.config/waybar/modules/custom-logo.jsonc",
+		"~/.config/waybar/modules/hyprland-workspaces.jsonc",
+		"~/.config/waybar/modules/custom-fullclock.jsonc"
+	],
+	"modules-left": [
+		"custom/logo",
+		"hyprland/workspaces",
+	],
+	"modules-right": [
+		"custom/fullclock",
+		"tray"
+	]
+
+}
