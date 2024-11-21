@@ -1,6 +1,0 @@
-{
-    "custom/fullclock": {
-        "exec": "date '+%r, %A, %B %d, %Y'",
-        "interval": 1
-    }
-}

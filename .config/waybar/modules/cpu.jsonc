@@ -1,0 +1,8 @@
+{
+  "cpu": {
+    "format": "CPU: {usage}%",
+    "tooltip": false,
+    "on-click": "$TERMINAL -a floatterm -e htop",
+    "on-click-right": "~/.config/waybar/custom/usage.sh cpu",
+  },
+}

@@ -1,16 +1,14 @@
 {
-	"include": [
-		"~/.config/waybar/modules/custom-logo.jsonc",
-		"~/.config/waybar/modules/hyprland-workspaces.jsonc",
-		"~/.config/waybar/modules/custom-fullclock.jsonc"
-	],
-	"modules-left": [
-		"custom/logo",
-		"hyprland/workspaces",
-	],
-	"modules-right": [
-		"custom/fullclock",
-		"tray"
-	]
-
+  "include": [
+    "~/.config/waybar/modules/custom-logo.jsonc",
+    "~/.config/waybar/modules/hyprland-workspaces.jsonc",
+    "~/.config/waybar/modules/clock.jsonc",
+    "~/.config/waybar/modules/network.jsonc",
+  ],
+  "layer": "bottom",
+  "position": "top",
+  "height": 30,
+  "modules-left": ["custom/logo", "hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["network"],
 }

@@ -1,0 +1,12 @@
+{
+  "network": {
+    // "interface": "wlp2*", // (Optional) To force the use of this interface
+    "format-wifi": "({signalStrength}%) ",
+    "format-ethernet": "󰈀  ",
+    "tooltip-format": "{ipaddr}\n<b>up:</b> {bandwidthUpBytes} <b>down:</b> {bandwidthDownBytes}",
+    "format-linked": "{ifname} (No IP) ?",
+    "format-disconnected": "No connection",
+    "on-click": "networkmanager_dmenu",
+    "on-click-right": "$TERMINAL -a floatterm -e nethogs",
+  },
+}

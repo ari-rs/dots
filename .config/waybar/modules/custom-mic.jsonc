@@ -1,0 +1,11 @@
+{
+  "pulseaudio": {
+    //"interval": "once",
+    "format": "{format_source}",
+    "format-source": " ",
+    "format-source-muted": " ",
+    "tooltip": false,
+    "signal": 2,
+    "on-click": "wpctl set-mute @DEFAULT_SOURCE@ toggle",
+  },
+}

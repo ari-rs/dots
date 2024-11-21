@@ -1,0 +1,8 @@
+{
+  "custom/power": {
+    "interval": "once",
+    "format": "",
+    "tooltip": false,
+    "on-click": "~/.local/bin/bemenu_power",
+  },
+}
