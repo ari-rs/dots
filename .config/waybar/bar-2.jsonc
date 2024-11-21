@@ -10,5 +10,5 @@
   "height": 30,
   "modules-left": ["custom/logo", "hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["network"],
+  "modules-right": ["tray", "network"],
 }
