@@ -3,6 +3,6 @@
     "interval": "once",
     "format": "",
     "tooltip": false,
-    "on-click": "~/.local/bin/bemenu_power",
+    "on-click": "~/.config/scripts/rofi-power-menu.sh",
   },
 }
