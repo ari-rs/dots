@@ -43,6 +43,6 @@ case $selected in
         ;;
 
     "$lang_pc_lock")
-        light-locker-command --lock
+        hyprlock
         ;;
 esac
