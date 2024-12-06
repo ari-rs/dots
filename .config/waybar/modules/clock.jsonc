@@ -1,6 +1,6 @@
 {
   "clock": {
-    "format": "{:%b %d %H:%M}",
+    "format": "{:%b %d %I:%M %p}",
     "on-click-middle": "~/.local/bin/noti_weather",
     "tooltip-format": "<span color='#FFFFFF'><tt>{calendar}</tt></span>",
     "calendar": {

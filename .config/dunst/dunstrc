@@ -1,0 +1,18 @@
+[global]
+frame_color = "#83C092"
+separator_color = frame
+padding = 4
+#height = (50, 300)
+
+[urgency_low]
+background = "#272E33"
+foreground = "#7FBBB3"
+
+[urgency_normal]
+background = "#272E33"
+foreground = "#A7C080"
+
+[urgency_critical]
+background = "#272E33"
+foreground = "#E67E80"
+frame_color = "#fab387"
