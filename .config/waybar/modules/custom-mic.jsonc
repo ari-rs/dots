@@ -2,7 +2,7 @@
   "pulseaudio": {
     //"interval": "once",
     "format": "{format_source}",
-    "format-source": " ",
+    "format-source": "",
     "format-source-muted": " ",
     "tooltip": false,
     "signal": 2,
